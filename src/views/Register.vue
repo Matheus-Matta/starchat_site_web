@@ -19,10 +19,9 @@ const form = reactive({
   name: '',
   company: '',
   email: '',
-  phone_display: '',   // (XX) XXXXX-XXXX
-  phone_e164: '',      // +55DDDN...
+  phone_display: '',   
+  phone_e164: '',      
   service: '',
-  consent: false,
 })
 
 const submitting = ref(false)
@@ -50,8 +49,7 @@ const isValid = computed(() =>
   form.company.trim().length > 1 &&
   isValidEmail(form.email) &&
   isValidE164(form.phone_e164) &&
-  !!form.service &&
-  form.consent
+  !!form.service
 )
 
 async function onSubmit() {
@@ -80,7 +78,6 @@ async function onSubmit() {
         email: form.email,
         phone: form.phone_e164,
         service: form.service,
-        consent: form.consent,
       }),
     })
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
@@ -88,7 +85,7 @@ async function onSubmit() {
     success.value = true
     Object.assign(form, {
       name: '', company: '', email: '', phone_display: '', phone_e164: '',
-      service: '', consent: false,
+      service: '',
     })
   } catch (e: any) {
     const msg = (e?.message || '').toLowerCase()
