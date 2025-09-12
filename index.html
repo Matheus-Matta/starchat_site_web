@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>StarChats — Centralize seu atendimento</title>
+    <meta name="description" content="Centralize WhatsApp, Instagram, Telegram, e-mail e chat em um único CRM multicanal. Demonstração gratuita." />
+    <link rel="canonical" href="https://starchats.com.br/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="StarChats — Centralize seu atendimento" />
+    <meta property="og:description" content="CRM multicanal com relatórios, automações e IA. Peça sua demo gratuita." />
+    <meta property="og:url" content="https://starchats.com.br/" />
+    <meta property="og:image" content="https://starchats.com.br/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="StarChats — Centralize seu atendimento" />
+    <meta name="twitter:description" content="CRM multicanal com relatórios, automações e IA. Peça sua demo gratuita." />
+    <meta name="twitter:image" content="https://starchats.com.br.com/og-image.jpg" />
+
+    <!-- Favicon / manifest -->
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <script>
+      (function(d,t) {
+        var BASE_URL="https://app.starchats.com.br";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'nyq1n1DeQKPFYKh335jvK6TW',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+
+      gtag('consent', 'default', {
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        ad_storage: 'denied',
+        analytics_storage: 'granted'
+      });
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9JNK1VLVB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '%VITE_GA_ID%', { send_page_view: false });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,264 @@
+{
+  "categories": [
+    { "key": "crm", "label": "CRM" },
+    { "key": "communication", "label": "Comunicação" },
+    { "key": "productivity", "label": "Produtividade" },
+    { "key": "development", "label": "Desenvolvimento" },
+    { "key": "platform", "label": "Plataforma" }
+  ],
+  "items": [
+    {
+      "slug": "website",
+      "title": "Website",
+      "category": "communication",
+      "icon": "/assets/images/logos/website.png",
+      "excerpt": "Chat do site e formulários conectados direto ao StarChats.",
+      "description": "Com a integração Website, você pode instalar um widget de chat totalmente personalizável no seu site. Ele permite capturar leads por meio de formulários, iniciar conversas em tempo real e acompanhar interações diretamente na sua caixa de entrada unificada do StarChats.",
+      "features": ["Widget personalizável", "Disparo de eventos (JS)", "Coleta de leads com tags"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "messenger",
+      "title": "Messenger",
+      "category": "communication",
+      "icon": "/assets/images/logos/messenger.png",
+      "excerpt": "Converse com clientes pelo Facebook Messenger na mesma caixa de entrada.",
+      "description": "Conecte sua página do Facebook ao StarChats e centralize o atendimento do Messenger. Responda mensagens privadas, utilize templates e ofereça suporte em larga escala sem sair da plataforma.",
+      "features": ["Mensagens rápidas e mídia", "Handoff para agente", "Templates e botões"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "whatsapp-cloud",
+      "title": "Cloud do WhatsApp",
+      "category": "communication",
+      "icon": "/assets/images/logos/whatsapp.png",
+      "excerpt": "Configuração rápida via Meta WhatsApp Cloud API.",
+      "description": "A integração com o WhatsApp Cloud API permite gerenciar conversas oficiais de forma escalável, com métricas de entrega, envio de templates aprovados e automações para disparos em massa.",
+      "features": ["Templates aprovados", "Mensagens em massa (HSM)", "Métricas de entrega"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "whatsapp-twilio",
+      "title": "WhatsApp via Twilio",
+      "category": "communication",
+      "icon": "/assets/images/logos/twilio.png",
+      "excerpt": "Conectar através de credenciais Twilio para WhatsApp.",
+      "description": "Conecte sua conta Twilio para enviar e receber mensagens do WhatsApp de forma confiável. Aproveite números verificados, envio de mídia, templates e relatórios unificados no StarChats.",
+      "features": ["Envio/recebimento de mídia", "Fallback via SMS", "Relatórios detalhados"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "whatsapp-evolution",
+      "title": "WhatsApp via Evolution",
+      "category": "communication",
+      "icon": "/assets/images/logos/evolution.svg",
+      "excerpt": "Conecte seu WhatsApp com QR Code rapidamente.",
+      "description": "Integre o WhatsApp via QR Code com o Evolution para começar a atender em minutos. Suporta múltiplas sessões, reconexão automática e gestão centralizada das conversas.",
+      "features": ["Conexão por dispositivo", "Múltiplas sessões", "Reconexão automática"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "sms-generic",
+      "title": "Canal SMS",
+      "category": "communication",
+      "icon": "/assets/images/logos/sms.png",
+      "description": "Habilite um canal de SMS escalável para notificações, suporte e campanhas. Dispare mensagens transacionais, automatize respostas e acompanhe entregas em tempo real.",
+      "excerpt": "Comece a oferecer suporte por SMS em escala.",
+      "features": ["Envio transacional", "Respostas automáticas", "Relatórios de entrega"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "sms-twilio",
+      "title": "Twilio (SMS)",
+      "category": "communication",
+      "icon": "/assets/images/logos/twilio.png",
+      "excerpt": "Envio/recebimento de SMS com Twilio.",
+      "description": "Use Twilio para SMS com alta entregabilidade, MMS e números locais. Configure webhooks para eventos e integre seus fluxos de atendimento e automação.",
+      "features": ["Números locais", "MMS", "Webhooks"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "sms-bandwidth",
+      "title": "Bandwidth (SMS)",
+      "category": "communication",
+      "icon": "/assets/images/logos/bandwidth.png",
+      "excerpt": "Canal SMS com provedora Bandwidth.",
+      "description": "Conecte a Bandwidth para SMS com ótima performance nos EUA. Suporte a 2FA/OTP, relatórios de entrega (DLR) e integração simples aos seus playbooks.",
+      "features": ["Alta entrega nos EUA", "2FA/OTP", "DLR"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "email",
+      "title": "Email",
+      "category": "communication",
+      "icon": "/assets/images/logos/email.png",
+      "excerpt": "Sincronize caixas de email e responda pelo StarChats.",
+      "description": "Sincronize suas caixas de email via IMAP/SMTP e responda tudo pelo StarChats. Padronize assinaturas, crie regras automáticas e mantenha o histórico centralizado.",
+      "features": ["IMAP/SMTP", "Assinaturas", "Regras automáticas"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "telegram",
+      "title": "Telegram",
+      "category": "communication",
+      "icon": "/assets/images/logos/telegram.png",
+      "excerpt": "Conecte seu bot e atenda no mesmo lugar.",
+      "description": "Conecte seu bot do Telegram e trate todas as mensagens na Inbox unificada. Envie mensagens ricas, use teclados rápidos e combine com automações e IA.",
+      "features": ["Bot API", "Mensagens ricas", "Teclados rápidos"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "line",
+      "title": "Line",
+      "category": "communication",
+      "icon": "/assets/images/logos/line.png",
+      "excerpt": "Integração oficial para mercados Ásia-Pacífico.",
+      "description": "Integração oficial com o LINE para presença na Ásia-Pacífico. Utilize rich menus, templates e métricas para um suporte completo em um único lugar.",
+      "features": ["Rich menus", "Templates", "Métricas"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "instagram",
+      "title": "Instagram",
+      "category": "communication",
+      "icon": "/assets/images/logos/instagram.png",
+      "excerpt": "DMs e comentários direto na sua Inbox.",
+      "description": "Gerencie DMs, respostas a Stories e comentários do Instagram direto na plataforma. Etiquete conversas, aplique regras e una tudo com seus outros canais.",
+      "features": ["DM/Story replies", "Menções", "Regras e tags"],
+      "label": "Conectar Agora",
+      "to": "/register"
+    },
+    {
+      "slug": "api",
+      "title": "API",
+      "category": "development",
+      "icon": "/assets/images/logos/api.png",
+      "excerpt": "REST API para integrar o StarChats ao seu stack.",
+      "description": "A REST API do StarChats oferece endpoints seguros para que você crie integrações personalizadas. É possível autenticar via token, consultar dados de conversas, usuários, contatos e disparar mensagens de forma programática.",
+      "features": ["Autenticação via token", "Rate limits", "SDKs"],
+      "label": "Ver Documentação",
+      "to": "/docs/api"
+    },
+    {
+      "slug": "webhooks",
+      "title": "Webhooks",
+      "category": "development",
+      "icon": "/assets/images/logos/webhook.png",
+      "excerpt": "Receba eventos em tempo real da sua conta.",
+      "description": "Receba eventos do StarChats em tempo real nos seus endpoints. Assine apenas os eventos desejados, com retries automáticos e assinatura HMAC para segurança.",
+      "features": ["Assinatura por evento", "Retries automáticos", "Assinatura HMAC"],
+      "label": "Configurar",
+      "to": "/register"
+    },
+    {
+      "slug": "app-panel",
+      "title": "Painel de Aplicativos",
+      "category": "platform",
+      "icon": "/assets/images/logos/apps.png",
+      "excerpt": "Crie mini-apps para enriquecer os atendimentos.",
+      "description": "Crie mini-apps exibidos ao lado da conversa para dar contexto ao agente. Mostre pedidos, pagamentos e dados externos sem sair do fluxo de atendimento.",
+      "features": ["Apps embutidos no chat", "Exibição de pedidos / pagamentos", "Contexto para agentes"],
+      "label": "Configurar",
+      "to": "/register"
+    },
+    {
+      "slug": "openai",
+      "title": "OpenAI",
+      "category": "productivity",
+      "icon": "/assets/images/logos/openai.png",
+      "excerpt": "Sugestões de resposta, resumo e revisão com IA.",
+      "description": "Potencialize o atendimento com IA: gere rascunhos, resumos e correções com um clique. Padronize o tom de voz e acelere a resolução com sugestões inteligentes.",
+      "features": ["Rascunhos com 1 clique", "Correção ortográfica", "Classificação"],
+      "label": "Configurar",
+      "to": "/register"
+    },
+    {
+      "slug": "linear",
+      "title": "Linear",
+      "category": "development",
+      "icon": "/assets/images/logos/linear.png",
+      "excerpt": "Crie e vincule issues sem sair da conversa.",
+      "description": "Crie e vincule issues do Linear diretamente da conversa. Sincronize status, adicione links rápidos e mantenha o time de produto alinhado ao suporte.",
+      "features": ["Criação de issue", "Sync de status", "Links rápidos"],
+      "label": "Configurar",
+      "to": "/register"
+    },
+    {
+      "slug": "notion",
+      "title": "Notion",
+      "category": "productivity",
+      "icon": "/assets/images/logos/notion.png",
+      "excerpt": "Use sua base do Notion como fonte de respostas.",
+      "description": "Conecte seu workspace do Notion para respostas contextuais. Pesquise páginas e bancos de dados e alimente a base de conhecimento do atendimento.",
+      "features": ["Busca semântica", "DBs e páginas", "Respostas contextuais"],
+      "label": "Configurar",
+      "to": "/register"
+    },
+    {
+      "slug": "slack",
+      "title": "Slack",
+      "category": "communication",
+      "icon": "/assets/images/logos/slack.png",
+      "excerpt": "Notificações e respostas a conversas no Slack.",
+      "description": "Leve o suporte para onde sua equipe já está. Receba alertas, responda threads e acione comandos no Slack mantendo tudo sincronizado com o StarChats.",
+      "features": ["Notificações em tempo real", "Slash commands", "Bot interativo"],
+      "label": "Configurar",
+      "to": "/register"
+    },
+    {
+      "slug": "dialogflow",
+      "title": "Dialogflow",
+      "category": "development",
+      "icon": "/assets/images/logos/dialogflow.png",
+      "excerpt": "Bots que atendem e transferem para agentes.",
+      "description": "Implemente chatbots com o Dialogflow e integre-os à Inbox. Deixe o bot tratar o primeiro nível e transfira para agentes com contexto completo quando necessário.",
+      "features": ["Intents e Entities", "Fallback inteligente", "Omnichannel"],
+      "label": "Configurar",
+      "to": "/register"
+    },
+    {
+      "slug": "google-translate",
+      "title": "Tradutor do Google",
+      "category": "productivity",
+      "icon": "/assets/images/logos/google-translate.png",
+      "excerpt": "Tradução automática para agentes e administradores.",
+      "description": "Traduza automaticamente mensagens em ambos os sentidos. Detecção de idioma, atalhos rápidos e produtividade para times multilíngues.",
+      "features": ["Detecção de idioma", "Tradução bidirecional", "Atalhos rápidos"],
+      "label": "Configurar",
+      "to": "/register"
+    },
+    {
+      "slug": "dyte",
+      "title": "Dyte (Áudio/Vídeo)",
+      "category": "communication",
+      "icon": "/assets/images/logos/dyte.png",
+      "excerpt": "Inicie chamadas de vídeo/voz direto do chat.",
+      "description": "Inicie chamadas de áudio e vídeo diretamente da conversa. Vídeo HD, gravação e SDKs Web/Mobile para experiências de suporte mais humanas.",
+      "features": ["Vídeo HD", "Gravação", "SDK Web/Mobile"],
+      "label": "Configurar",
+      "to": "/register"
+    },
+    {
+      "slug": "leadsquared",
+      "title": "LeadSquared",
+      "category": "crm",
+      "icon": "/assets/images/logos/leadsquared.png",
+      "excerpt": "Sincronize contatos, leads e conversas com o CRM.",
+      "description": "Sincronize leads, contatos e atividades com o LeadSquared. Crie leads automaticamente e registre interações para dar contexto às equipes de vendas.",
+      "features": ["Criação de lead automática", "Registro de atividades", "Web-to-lead"],
+      "label": "Configurar",
+      "to": "/register"
+    }
+  ]
+}

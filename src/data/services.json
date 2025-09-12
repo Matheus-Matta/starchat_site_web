@@ -1,0 +1,311 @@
+{
+  "multicanal": {
+    "title": "Multicanal",
+    "icon": "fas fa-project-diagram",
+    "excerpt": "Instagram, WhatsApp, Telegram, Email e Live Chat.",
+    "hero": {
+      "subtitle": "Centralize tudo",
+      "headline": "Atendimento Multicanal",
+      "description": "Gerencie Instagram, WhatsApp, Telegram, Email e Live Chat em uma única plataforma de forma organizada."
+    },
+    "sections": [
+      {
+        "heading": "Canais unificados",
+        "text": "Tenha todas as conversas em uma caixa de entrada compartilhada."
+      },
+      {
+        "heading": "Organização simplificada",
+        "text": "Separe por departamentos e facilite o fluxo de atendimento."
+      }
+    ],
+    "features": [
+      "WhatsApp, Instagram, Facebook, Telegram e Email",
+      "Centralização em um único painel",
+      "Integração com chat do site"
+    ],
+    "image": "/assets/images/services/multicanal.png",
+    "cta": {
+      "label": "Quero testar o multicanal",
+      "to": "/register"
+    }
+  },
+
+  "funcoes-e-auditoria": {
+    "title": "Funções e Auditoria",
+    "icon": "fas fa-clipboard-check",
+    "excerpt": "Monitore cada ação com controle de funções e auditoria.",
+    "hero": {
+      "subtitle": "Controle e transparência",
+      "headline": "Funções e Auditoria",
+      "description": "Defina papéis, rastreie atividades e garanta conformidade em toda a operação."
+    },
+    "sections": [
+      {
+        "heading": "Papéis e permissões",
+        "text": "Crie perfis por equipe e defina o que cada usuário pode ver e fazer."
+      },
+      {
+        "heading": "Trilha de auditoria",
+        "text": "Acompanhe alterações relevantes com histórico detalhado de ações."
+      }
+    ],
+    "features": [
+      "Perfis por equipe/departamento",
+      "Logs detalhados por usuário",
+      "Exportação de auditoria"
+    ],
+    "image": "/assets/images/services/roles-audit.png",
+    "cta": {
+      "label": "Quero implementar agora",
+      "to": "/register"
+    }
+  },
+
+  "times-e-agentes": {
+    "title": "Times e Agentes",
+    "icon": "fas fa-users",
+    "excerpt": "Organização de times e agentes para distribuir tarefas.",
+    "hero": {
+      "subtitle": "Trabalho em equipe",
+      "headline": "Gestão de Times e Agentes",
+      "description": "Crie equipes, atribua conversas e organize seu atendimento de forma inteligente."
+    },
+    "sections": [
+      {
+        "heading": "Distribuição automática",
+        "text": "Encaminhamento de conversas para o agente disponível."
+      },
+      {
+        "heading": "Gestão colaborativa",
+        "text": "Equipes organizadas para atender com mais agilidade."
+      }
+    ],
+    "features": [
+      "Criação de equipes",
+      "Distribuição inteligente",
+      "Controle de produtividade"
+    ],
+    "image": "/assets/images/services/teams-agents.png",
+    "cta": {
+      "label": "Organizar minha equipe",
+      "to": "/register"
+    }
+  },
+
+  "relatorios": {
+    "title": "Relatórios",
+    "icon": "fas fa-chart-bar",
+    "excerpt": "Gráficos e métricas de desempenho detalhadas.",
+    "hero": {
+      "subtitle": "Visão completa",
+      "headline": "Relatórios e Insights",
+      "description": "Acompanhe o desempenho em tempo real com relatórios completos por canal e usuário."
+    },
+    "sections": [
+      {
+        "heading": "Métricas em tempo real",
+        "text": "Saiba exatamente como anda o atendimento da sua equipe."
+      },
+      {
+        "heading": "Comparativos",
+        "text": "Analise resultados por período e otimize processos."
+      }
+    ],
+    "features": [
+      "KPIs de atendimento",
+      "Filtros avançados",
+      "Exportação de relatórios"
+    ],
+    "image": "/assets/images/services/reports.png",
+    "cta": {
+      "label": "Quero acessar os relatórios",
+      "to": "/register"
+    }
+  },
+
+  "automacoes": {
+    "title": "Automações",
+    "icon": "fas fa-cogs",
+    "excerpt": "Automações e macros inteligentes para agilizar processos.",
+    "hero": {
+      "subtitle": "Produtividade máxima",
+      "headline": "Automatize seu atendimento",
+      "description": "Economize tempo com fluxos automáticos de mensagens e ações repetitivas."
+    },
+    "sections": [
+      {
+        "heading": "Macros",
+        "text": "Respostas rápidas com apenas um clique."
+      },
+      {
+        "heading": "Automatizações inteligentes",
+        "text": "Fluxos que funcionam sozinhos 24/7."
+      }
+    ],
+    "features": [
+      "Respostas automáticas",
+      "Ações agendadas",
+      "Fluxos inteligentes"
+    ],
+    "image": "/assets/images/services/automation.png",
+    "cta": {
+      "label": "Automatizar agora",
+      "to": "/register"
+    }
+  },
+
+  "robos-com-ia": {
+    "title": "Robôs com IA",
+    "icon": "fas fa-robot",
+    "excerpt": "Robôs de atendimento com IA para respostas automáticas.",
+    "hero": {
+      "subtitle": "Atendimento inteligente",
+      "headline": "Robôs com Inteligência Artificial",
+      "description": "Robôs que entendem e respondem seus clientes de forma natural e eficaz."
+    },
+    "sections": [
+      {
+        "heading": "Chatbots avançados",
+        "text": "Respostas automáticas em múltiplos canais."
+      },
+      {
+        "heading": "IA integrada",
+        "text": "Atendimento natural com suporte a ChatGPT e NLP."
+      }
+    ],
+    "features": [
+      "Chatbots integrados",
+      "IA para suporte",
+      "Disponibilidade 24/7"
+    ],
+    "image": "/assets/images/services/ai-bots.png",
+    "cta": {
+      "label": "Ativar robô de IA",
+      "to": "/register"
+    }
+  },
+
+  "helpercenter": {
+    "title": "HelperCenter",
+    "icon": "fas fa-info-circle",
+    "excerpt": "HelperCenter para suporte e conhecimento em atendimentos.",
+    "hero": {
+      "subtitle": "Ajuda na palma da mão",
+      "headline": "HelperCenter",
+      "description": "Central de conhecimento para autoatendimento e suporte rápido."
+    },
+    "sections": [
+      {
+        "heading": "Base de conhecimento",
+        "text": "Documente processos e reduza dúvidas recorrentes."
+      },
+      {
+        "heading": "Suporte integrado",
+        "text": "Seus clientes encontram respostas em segundos."
+      }
+    ],
+    "features": [
+      "Base de artigos",
+      "Pesquisa inteligente",
+      "Acesso rápido"
+    ],
+    "image": "/assets/images/services/helpercenter.png",
+    "cta": {
+      "label": "Criar meu centro de ajuda",
+      "to": "/register"
+    }
+  },
+
+  "sla-e-csat": {
+    "title": "SLA e CSAT",
+    "icon": "fas fa-stopwatch",
+    "excerpt": "SLA e CSAT definidos para garantir qualidade e satisfação.",
+    "hero": {
+      "subtitle": "Qualidade garantida",
+      "headline": "SLA e CSAT",
+      "description": "Defina tempo de resposta e meça a satisfação de cada atendimento."
+    },
+    "sections": [
+      {
+        "heading": "Gestão de SLA",
+        "text": "Acompanhe se sua equipe está dentro dos prazos prometidos."
+      },
+      {
+        "heading": "Pesquisas CSAT",
+        "text": "Pergunte aos clientes como foi o atendimento e melhore continuamente."
+      }
+    ],
+    "features": [
+      "SLA configurável",
+      "CSAT automático",
+      "Indicadores de performance"
+    ],
+    "image": "/assets/images/services/sla-csat.png",
+    "cta": {
+      "label": "Ativar métricas de qualidade",
+      "to": "/register"
+    }
+  },
+
+  "campanhas": {
+    "title": "Campanhas",
+    "icon": "fas fa-bullhorn",
+    "excerpt": "SMS, Live Chat e WhatsApp para alcançar todos os canais.",
+    "hero": {
+      "subtitle": "Alcance multicanal",
+      "headline": "Campanhas Inteligentes",
+      "description": "Automatize disparos, segmente audiências e mensure resultados em tempo real."
+    },
+    "sections": [
+      {
+        "heading": "Segmentação avançada",
+        "text": "Crie listas dinâmicas por tags, origem e engajamento."
+      },
+      {
+        "heading": "Métricas em tempo real",
+        "text": "Acompanhe entregas, cliques, respostas e conversões."
+      }
+    ],
+    "features": [
+      "Disparo por WhatsApp, SMS",
+      "Templates reutilizáveis",
+      "A/B test de mensagens"
+    ],
+    "image": "/assets/images/services/campaigns.png",
+    "cta": {
+      "label": "Iniciar campanha",
+      "to": "/register"
+    }
+  },
+
+  "aplicativo-mobile": {
+    "title": "Aplicativo Mobile",
+    "icon": "bi bi-phone",
+    "excerpt": "Acompanhe e responda conversas pelo celular, em qualquer lugar.",
+    "hero": {
+      "subtitle": "Agilidade na palma da mão",
+      "headline": "StarChats no seu bolso",
+      "description": "Gerencie conversas, times e métricas diretamente do app para iOS e Android."
+    },
+    "sections": [
+      {
+        "heading": "Atendimento em movimento",
+        "text": "Responda clientes, use macros e troque de canal pelo app."
+      },
+      {
+        "heading": "Notificações em tempo real",
+        "text": "Não perca mensagens importantes com push instantâneo."
+      }
+    ],
+    "features": [
+      "Disponível para iOS e Android",
+      "Notificações push",
+      "Modo escuro e atalhos rápidos"
+    ],
+    "image": "/assets/images/services/mobile-app.png",
+    "cta": {
+      "label": "Quero usar no celular",
+      "to": "/register"
+    }
+  }
+}
