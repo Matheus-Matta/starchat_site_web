@@ -1,6 +1,6 @@
 <!-- src/components/Header.vue -->
 <script setup lang="ts">
-import logoUrl from '@/assets/images/logos/logo.svg'
+import logoUrl from '/assets/images/logos/logo.svg'
 import { trackCTA } from '@/utils/ga'
 </script>
 <template>
@@ -10,10 +10,10 @@ import { trackCTA } from '@/utils/ga'
         <div class="header-inner py-20 d-flex align-items-center">
 
           <!-- Logo (menu-left) -->
-          <div class="logo-outer d-flex justify-content-start flex-1">
+          <div class="logo-outer d-none d-lg-flex justify-content-start flex-1">
             <div class="logo">
               <RouterLink to="/">
-                <img src="/assets/images/logos/logo.png" alt="Logo StarChats" />
+                <img :src="logoUrl" alt="Logo StarChats" />
               </RouterLink>
             </div>
           </div>
@@ -41,7 +41,7 @@ import { trackCTA } from '@/utils/ga'
               </div>
 
               <div class="navbar-collapse collapse" id="main-menu">
-                <ul class="navigation d-flex gap-4">
+                <ul class="navigation gap-4">
                     <li>
                         <RouterLink to="/#home" @click="trackCTA('header', 'home')">Início</RouterLink>
                     </li>
