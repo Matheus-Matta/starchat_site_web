@@ -1,6 +1,5 @@
 <!-- src/components/Header.vue -->
 <script setup lang="ts">
-import logoUrl from '/assets/images/logos/logo.svg'
 import { trackCTA } from '@/utils/ga'
 </script>
 <template>
@@ -13,7 +12,7 @@ import { trackCTA } from '@/utils/ga'
           <div class="logo-outer d-none d-lg-flex justify-content-start flex-1">
             <div class="logo">
               <RouterLink to="/">
-                <img :src="logoUrl" alt="Logo StarChats" />
+                <img src="/assets/images/logos/logo.png" alt="Logo StarChats" />
               </RouterLink>
             </div>
           </div>
