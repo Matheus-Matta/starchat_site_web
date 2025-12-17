@@ -78,7 +78,7 @@ useHead({
                 <img
                   
                   style="width: 75%;"
-                  src="/assets/images/hero/hero.png"
+                  src="/assets/images/hero/hero2.png"
                   alt="Linha do tempo / evolução da empresa"
                 />
               </div>

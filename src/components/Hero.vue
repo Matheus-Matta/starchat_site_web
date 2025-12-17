@@ -21,7 +21,7 @@
                 <!-- Imagem -->
                 <div class="col-lg-6">
                     <div class="hero-image-three overlay wow fadeInLeft delay-0-4s">
-                        <img style="width: 80%;" src="/assets/images/hero/hero.png" alt="Hero" />
+                        <img style="width: 80%;" src="/assets/images/hero/hero2.png" alt="Hero" />
                     </div>
                 </div>
             </div>
