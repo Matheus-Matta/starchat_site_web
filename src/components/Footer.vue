@@ -138,7 +138,7 @@ const siteName  = import.meta.env.VITE_SITE_NAME          || 'StarChats'
 const siteUrl   = import.meta.env.VITE_SITE_URL           || '/'
 
 /** Logo do rodapé via public/ */
-const logoFooter = '/assets/images/logos/logo-footer.png'
+const logoFooter = '/assets/images/logos/logo-footer2.png'
 
 /** Ano atual */
 const year = computed(() => new Date().getFullYear())

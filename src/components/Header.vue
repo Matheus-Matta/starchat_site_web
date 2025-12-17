@@ -12,7 +12,7 @@ import { trackCTA } from '@/utils/ga'
           <div class="logo-outer d-none d-lg-flex justify-content-start flex-1">
             <div class="logo">
               <RouterLink to="/">
-                <img src="/assets/images/logos/logo.png" alt="Logo StarChats" />
+                <img src="/assets/images/logos/logo2.png" alt="Logo StarChats" />
               </RouterLink>
             </div>
           </div>
@@ -23,7 +23,7 @@ import { trackCTA } from '@/utils/ga'
               <div class="navbar-header d-lg-none">
                 <div class="logo-mobile">
                   <RouterLink to="/">
-                    <img src="/assets/images/logos/logo.png" alt="Logo StarChats" />
+                    <img src="/assets/images/logos/logo2.png" alt="Logo StarChats" />
                   </RouterLink>
                 </div>
                 <button
